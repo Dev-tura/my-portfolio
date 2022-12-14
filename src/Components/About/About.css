@@ -1,0 +1,61 @@
+.all {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about {
+  width: 600px;
+  margin-top: 50px;
+  border: 2px solid teal;
+}
+.about__career img {
+  width: 150px;
+  margin-top: 20px;
+  border-radius: 200px;
+}
+.about__interest {
+  border-top: 1px solid teal;
+}
+.about__career--content0 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.about__interest--content {
+  display: flex;
+  justify-content: center;
+}
+.about__interest--content1 {
+  display: flex;
+  justify-content: center;
+  font-weight: 650;
+}
+.about__socials--icon {
+  margin: 0px 0px 0px 120px;
+}
+.tabs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 40px;
+  border-top: 1px solid teal;
+}
+.h2-stylee {
+  display: flex;
+  justify-content: center;
+  color: teal;
+  font-size: 40px;
+  font-weight: 650;
+}
+.tab {
+  border: 1px solid black;
+  width: 100px;
+  height: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 20px;
+}

@@ -1,0 +1,53 @@
+.Mainheader {
+  height: 70px;
+  width: 100;
+  /* background-color: #000; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.spann {
+  color: white;
+  font-weight: 600;
+  margin-left: 7px;
+}
+.Logodiv img {
+  width: 150px;
+}
+.Headerholder {
+  /* background-color: blueviolet; */
+  width: 88%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Navigation {
+  width: 100%;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+.Navdiv {
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mybars {
+  display: none;
+}
+.drophead {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .Navdiv {
+    display: none;
+  }
+  .mybars {
+    display: block;
+  }
+  .drophead {
+    display: block;
+  }
+}
